@@ -1,0 +1,44 @@
+millbrae 1 san-bruno
+sf-airport 1 san-bruno
+san-bruno 3 millbrae sf-airport south-san-francisco
+south-san-francisco 2 san-bruno colma
+colma 2 south-san-francisco daly-city
+daly-city 2 colma balboa-park
+balboa-park 2 daly-city glen-park
+glen-park 2 balboa-park 24th-st-mission
+24th-st-mission 2 glen-park 16th-st-mission
+16th-st-mission 2 24th-st-mission civic-center
+civic-center 2 16th-st-mission powell-st
+powell-st 2 civic-center montgomery-st
+montgomery-st 2 powell-st embarcadero
+embarcadero 2 montgomery-st west-oakland
+west-oakland 3 embarcadero 12th-st-oakland lake-merritt
+12th-st-oakland 3 west-oakland 19th-st-oakland lake-merritt
+19th-st-oakland 2 12th-st-oakland macarthur
+macarthur 3 19th-st-oakland ashby rockridge
+rockridge 2 macarthur orinda
+orinda 2 rockridge lafayette
+lafayette 2 orinda walnut-creek
+walnut-creek 2 lafayette pleasant-hill
+pleasant-hill 2 walnut-creek concord
+concord 2 pleasant-hill north-concord
+north-concord 2 concord pittsburg
+pittsburg 1 north-concord
+ashby 2 macarthur downtown-berkeley
+downtown-berkeley 2 ashby north-berkeley
+north-berkeley 2 downtown-berkeley el-cerrito-plaza
+el-cerrito-plaza 2 north-berkeley el-cerrito-del-norte
+el-cerrito-del-norte 2 el-cerrito-plaza richmond
+richmond 1 el-cerrito-del-norte
+lake-merritt 3 west-oakland 12th-st-oakland fruitvale
+fruitvale 2 lake-merritt colliseum
+colliseum 2 fruitvale san-leandro
+san-leandro 2 colliseum bay-fair
+bay-fair 3 san-leandro castro-valley hayward
+hayward 2 bay-fair south-hayward
+south-hayward 2 hayward union-city
+union-city 2 south-hayward fremont
+fremont 1 union-city
+castro-valley 2 bay-fair west-dublin
+west-dublin 2 castro-valley dublin
+dublin 1 west-dublin
